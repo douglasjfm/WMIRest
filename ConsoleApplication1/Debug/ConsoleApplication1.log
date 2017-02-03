@@ -1,0 +1,20 @@
+﻿Build started 30/01/2017 02:52:20.
+     1>Project "C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\packages\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sender.cpp
+         sender.cpp
+     1>c:\users\dougl\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\sender.cpp(49): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(528) : see declaration of 'mbstowcs'
+     1>c:\users\dougl\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\sender.cpp(66): warning C4996: 'web::json::value::to_string': This API is deprecated and has been renamed to avoid confusion with as_string(), use ::web::json::value::serialize() instead.
+                 c:\users\dougl\documents\visual studio 2013\projects\consoleapplication1\packages\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include\cpprest\json.h(419) : see declaration of 'web::json::value::to_string'
+     1>c:\users\dougl\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\sender.cpp(56): warning C4101: 'e' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO "C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\packages\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\..\..\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x86\Debug\cpprest120d_2_9.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\config.obj
+         Debug\sender.obj
+         Debug\main.obj
+         ConsoleApplication1.vcxproj -> C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\dougl\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:47.87

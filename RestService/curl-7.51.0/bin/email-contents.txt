@@ -1,0 +1,9 @@
+From: "Douglasjfm" <douglasjfm@gmail.com>
+To: "Douglas" <douglasjfm@yahoo.com>
+Subject: Sending Using Curl
+
+Hello,
+
+I'm sending this mail with curl.
+
+Bye!
